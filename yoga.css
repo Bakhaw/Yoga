@@ -1,10 +1,11 @@
 * {
   margin: 0 auto;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
+
 #container {
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .block1 {
@@ -13,33 +14,34 @@
   padding-top: 16px;
   padding-bottom: 16px;
   width: 100%;
-  background-color: #FE5D26;
-  position: fixed;
+  background-color: #9BC995;
 }
-
 .menu {
   display: flex;
   align-items: center;
-  background-color: #FE5D26;
-
+  background-color: #9BC995;
 }
+
 .menu a {
   margin-left: 100px;
 }
+
 .menu * {
   display: flex;
   color: white;
   font-size: 16px;
 }
+
 .menu2 {
   display: flex;
   align-items: center;
-  background-color: #FE5D26;
+  background-color: #9BC995;
 }
+
 .menu2 * {
   display: flex;
-margin-left: 20px;
-color: white;
+  margin-left: 20px;
+  color: white;
   font-size: 16px;
 }
 
@@ -47,7 +49,7 @@ color: white;
 /* Dropdown Button */
 
 .dropbtn {
-  background-color: #FE5D26;
+  background-color: #9BC995;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -105,9 +107,95 @@ color: white;
 .dropdown:hover .dropbtn {
   background-color: #754F44;
 }
+
 .block2 {
-margin: 0;
+  margin: 0;
 }
+
 .block2 img {
   width: 100%;
+}
+
+.block3 {
+display:flex;
+}
+
+.block3 div {
+  border-left: 15px solid #9BC995;
+  border-right: 15px solid #9BC995;
+  border-bottom: 3px solid #9BC995;
+  background-color: #9BC995;
+}
+
+.block3 p {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: #3F3333;
+  border: 2px solid white;
+}
+.block3 img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block4 {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.block4 img {
+  width: 100%;*
+}
+
+.block5 img {
+  width: 100%;
+}
+
+.block6 {
+}
+
+.block6-1 {
+   display:flex;
+   background-color: #9BC995;
+}
+
+.block6-1 div {
+  border-left: 10px solid #9BC995;
+  border-right: 10px solid #9BC995;
+
+}
+
+.block6-1 h3 {
+  background-color: white;
+  color: #3F3333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.block6-1 p {
+  color: #3F3333;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.block7 {
+  background-color: #252728;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.block7 p {
+  color: #D6D7D7;
+}
+
+.block7 a {
+  color: #9BC995;
 }
