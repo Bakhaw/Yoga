@@ -11,26 +11,26 @@
 .block1 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
   width: 100%;
   background-color: #9BC995;
 }
+
 .menu {
   display: flex;
   align-items: center;
   background-color: #9BC995;
 }
 
-.menu a {
-  margin-left: 100px;
-}
-
-.menu * {
-  display: flex;
+.block1 a {
   color: white;
   font-size: 16px;
+
 }
+
+
 
 .menu2 {
   display: flex;
@@ -91,7 +91,7 @@
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 
@@ -117,7 +117,7 @@
 }
 
 .block3 {
-display:flex;
+  display: flex;
 }
 
 .block3 div {
@@ -138,6 +138,7 @@ display:flex;
   color: #3F3333;
   border: 2px solid white;
 }
+
 .block3 img {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -149,25 +150,24 @@ display:flex;
 }
 
 .block4 img {
-  width: 100%;*
+  width: 100%;
+  *
 }
 
 .block5 img {
   width: 100%;
 }
 
-.block6 {
-}
+.block6 {}
 
 .block6-1 {
-   display:flex;
-   background-color: #9BC995;
+  display: flex;
+  background-color: #9BC995;
 }
 
 .block6-1 div {
   border-left: 10px solid #9BC995;
   border-right: 10px solid #9BC995;
-
 }
 
 .block6-1 h3 {
